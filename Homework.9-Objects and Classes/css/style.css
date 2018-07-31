@@ -1,0 +1,42 @@
+body {
+  background-color: pink;
+}
+
+.card {
+  border: 1px solid #CC2EFA;
+}
+
+#title {
+  border: 2px solid #CC2EFA;
+  background-color: #F8E0F7;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#gameBody {
+  background-color: #F8E0F7;
+  border: 2px solid #CC2EFA;
+}
+
+#imgGame {
+  border-right: 1px solid #CC2EFA;
+}
+
+.confirmation, .edit{
+  display: none;
+  background-color: #F8E0F7;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#editBtn2, #editInput {
+  width: 100%;
+}
+
+#addContainer {
+  text-align: center
+}

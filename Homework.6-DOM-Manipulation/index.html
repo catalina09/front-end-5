@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
+	<title>Homework.6-DOM-Manipulation</title>
+</head>
+
+<body>
+  <div class="container">
+    <div id="successContainer">
+      <div id="successItem" class="alert alert-success alert-dismissible"></div>
+    </div>
+
+  <div>
+    <img src="dog.png" width="400px">
+  </div>
+    <form id="contact" action="#" onsubmit="validData()">
+      <input id="firstName" class="form-control" type="text" name="fname" placeholder="First Name" /><br></br>
+      <input id="lastName" class="form-control" type="text" name="lname" placeholder="Last Name" /><br></br>
+      <ul>Gender:
+        <li>
+          <input type="radio" name="gender" value="male">M</input>
+        </li>
+        <li>
+          <input type="radio" name="gender" value="female">F</input>
+        </li>
+      </ul>
+      <textarea id="message" class="form-control" name="subject" placeholder="Your message here..." rows="8"></textarea><br></br>
+      <button type="submit" id="click" onclick="requiredData()">Submit</button>
+    </form>
+  </div>
+
+</body>
+
+</html>
